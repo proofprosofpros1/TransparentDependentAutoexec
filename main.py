@@ -1,2 +1,2 @@
-for i in range(30):
-  print(i+2)
+a = "Andrew"
+print("Hello " + a)
