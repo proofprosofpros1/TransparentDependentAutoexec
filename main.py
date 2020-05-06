@@ -8,7 +8,9 @@ if age > 12:
 else:
   print("preteen")
 age = random.randint(10,20)
-if age > 12:
+if age > 12 and age < 20:
   print("teen")
+elif age == 20:
+  print("not teen")
 else:
   print("preteen")
